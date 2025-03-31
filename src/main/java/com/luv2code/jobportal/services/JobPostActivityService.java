@@ -32,11 +32,9 @@ public class JobPostActivityService {
         List<RecruiterJobsDto> recruiterJobsDtoList = new ArrayList<>();
 
         for (IRecruiterJobs rec : recruiterJobsDtos) {
-            System.out.println(rec.getClass().getSimpleName() + "   IIIIIIIMMMMMMMMMMMMGGGGGGGGGGG");
             JobLocation loc = new JobLocation(rec.getLocationId(), rec.getCity(), rec.getState(), rec.getCountry());
             JobCompany comp = new JobCompany(rec.getCompanyId(), rec.getName(), "");
             recruiterJobsDtoList.add(new RecruiterJobsDto(rec.getTotalCandidates(), rec.getJob_post_id(), rec.getJob_title(), loc, comp));
-
         }
 
         return recruiterJobsDtoList;

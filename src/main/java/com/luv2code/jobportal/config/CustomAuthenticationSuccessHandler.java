@@ -10,6 +10,9 @@ import org.springframework.stereotype.Component;
 
 import java.io.IOException;
 
+/*
+    User login success component, if user login success then redirect URL to dashboard
+ */
 @Component
 public class CustomAuthenticationSuccessHandler implements AuthenticationSuccessHandler {
     @Override

@@ -18,7 +18,6 @@
 | Name  | Description |
 | :--- | :--- |
 | HomeController  | Show home page  |
-| JobLocationController  | Managing job locations  |
 | JobPostActivityController  | Managing job posts and searching job posts |
 | JobSeekerApplyController  | Applying for jobs  |
 | JobSeekerProfileController  | Managing job seeker profile  |

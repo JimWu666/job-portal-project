@@ -1,6 +1,9 @@
 # Project Overview
    This is a job search platform, that helps recruiters post job and manage, job seekers to search for job and save or apply job, I was mainly responsible for back-end API development and business logic processing.
 
+# Operation screen
+   You can go to folder name operation picture to see some actual operation sreen
+
 # Requirements
   ## Recruiter
   * Post new job

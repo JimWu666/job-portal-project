@@ -10,7 +10,7 @@
   * View our job
   * View list of candidates that have applied for a job
   * Edit profile and upload profile photo
-  ## Candidate
+  ## Candidate (Job seeker)
   * Search for job
   * Apply for a job
   * View list of jobs that you (job candidate) has applied for

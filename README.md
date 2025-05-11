@@ -1,3 +1,6 @@
+# Project Overview
+   This is a job search platform, that helps recruiters post job and manage, job seekers to search for job and save or apply job, I was mainly responsible for back-end API development and business logic processing.
+
 # Requirements
   ## Recruiter
   * Post new job
@@ -39,7 +42,7 @@
 | Users  | Info about a user: email, password etc  |
 | UsersType  | Type/role of user: recruiter or job seeker  |
 
-
-
 ![image](https://github.com/user-attachments/assets/742114e5-8efe-4ad6-81be-535273a1cfd9)
 
+# Create Database table script
+In the folder name sql script

@@ -16,7 +16,7 @@
   * View list of jobs that you (job candidate) has applied for
   * Edit profile and upload profile photo
   * Upload resume  
-  ## Common fun
+  ## Common functions
   * Register for new account
   * Login / Logout
 

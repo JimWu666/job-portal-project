@@ -53,4 +53,8 @@ public class JobPostActivityService {
 
         return Objects.isNull(searchDate) ? this.jobPostActivityRepository.searchWithoutDate(job, location, remote, type) : this.jobPostActivityRepository.search(job, location, remote, type, searchDate);
     }
+
+    public void delete(int id) {
+        this.jobPostActivityRepository.deleteById(id);
+    }
 }

@@ -301,7 +301,7 @@ public class JobPostActivityController {
     }
 
     // Handles POST requests for the "dashboard/edit/{id}" endpoint
-    @PostMapping("dashboard/edit/{id}")
+    @GetMapping("dashboard/edit/{id}")
     public String editJob(@PathVariable("id") int id, Model model) {
 
         // Retrieves the job posting details based on the given ID
@@ -315,5 +315,13 @@ public class JobPostActivityController {
 
         // Returns the view name "add-jobs", which displays the form for editing jobs
         return "add-jobs";
+    }
+
+    // Handles POST requests for the "/dashboard/deleteJob/{id}" endpoint
+    @PostMapping("dashboard/deleteJob/{id}")
+    public String deleteJob(@PathVariable("id") int id, Model model) {
+
+        this.jobPostActivityService.delete(id);
+        return "redirect:/dashboard/";
     }
 }
